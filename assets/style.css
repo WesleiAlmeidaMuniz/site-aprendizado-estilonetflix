@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Circular;
+    src: url(font/CircularStd-Medium.ttf);
+}
+
+@font-face {
+    font-family: Circular-ligth;
+    src: url(font/CircularStd-Book.ttf);
+}
+
+body{
+    font-family: "Circular", Helvetica, sans-serif;
+    background-color: black;
+}
+
+.cabeçalho{
+    background-color: white;
+    height: 60px;
+    text-align: center;
+}
+
+.botaoNovo {
+    background-color: rgb(230, 12, 12);
+    padding: 5px 9px;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+header > p {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 15px 5px;
+}
+
+header > p > strong {
+    font-size: 1.3em;
+}
+
+header > p > a {
+    color: blue;
+    text-decoration: none;
+}
+
+.principal{
+    height: 600px; 
+    background-size: 100%;
+    background-image: url(background-principal.jpg);
+    box-shadow: inset 50px 50px 300px 200px rgba(0, 0, 0, 0.814);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal nav > img {
+    width: 130px;
+    margin: 50px;
+}
+
+.botaonav{
+    margin-right: 30px;
+}
+
+.botaolingua{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-right: 7px;
+}
+
+.botaologar{
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
+
+.texto{
+    color: white;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-family: Circular-ligth;
+} 
+
+.texto > h3{
+    font-size: 1.3em;
+    margin-top: 40px;
+    text-shadow: black 1px 0px 10px;
+}
+
+.formularioprincipal{
+    margin-top: 15px;
+}
+
+input#email{
+    width: 450px;
+    height: 50px;
+}
+
+.botaoemail{
+    width: 200px;
+    height: 54px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+}
+
+.divisoria{
+    height: 10px;
+    background-color: rgb(69, 69, 69);
+}
+
+.beneficios{
+    height: 450px;
+    color: white;
+    display: flex;
+}
+
+.beneficiostext{
+    margin: auto;
+}
+
+.beneficiostextrigth{
+    margin: auto -35px;
+}
+
+.beneficiostextrigth > h2 {
+    line-height: 1.5em;
+}
+
+.beneficiostext> h2 {
+    line-height: 1.5em;
+}
+
+.beneficiosimg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficiosimg > img {
+    max-width: 80%;
+}
