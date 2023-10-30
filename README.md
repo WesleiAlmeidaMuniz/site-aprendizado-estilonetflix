@@ -13,5 +13,5 @@
   - Fonte personalizada estilo Netflix.
   - Utilização de animação para as caixas de resposta. (Biblioteca Animation.css)
 - JavaScript:
-  - Crianção de função para esconder ou mostrar caixa de perguntas.
+  - Criação de função para esconder ou mostrar caixa de perguntas.
   
